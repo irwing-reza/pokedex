@@ -1,5 +1,7 @@
 # pokedex
 
+Simple pokedex using Vuejs consuming the pokeapi.
+
 ## Project setup
 ```
 npm install
@@ -18,9 +20,4 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
 ```
