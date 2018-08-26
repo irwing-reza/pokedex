@@ -27,9 +27,9 @@ export default {
     id: {
       required: true,
       type: [Number, String],
-    }
-  }
-}
+    },
+  },
+};
 </script>
 <style <style lang="scss" scoped>
 .list-item {

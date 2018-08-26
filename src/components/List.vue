@@ -19,7 +19,7 @@ export default {
     items: {
       items: Array,
       required: true,
-    }
-  }
-}
+    },
+  },
+};
 </script>
