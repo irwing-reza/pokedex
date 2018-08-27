@@ -9,7 +9,7 @@
   </ul>
 </template>
 <script>
-import ListItem from '@/components/ListItem.vue';
+import ListItem from '../ListItem/index.vue';
 
 export default {
   components: {

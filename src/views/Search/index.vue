@@ -7,7 +7,7 @@
 <script>
 import utils from '@/utils/';
 
-import List from '@/components/List.vue';
+import List from '../../components/List/index.vue';
 
 export default {
   components: {

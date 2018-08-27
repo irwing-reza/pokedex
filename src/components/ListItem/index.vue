@@ -32,17 +32,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.list-item {
-  cursor: pointer;
-  &:hover {
-    background-color: #dedede;
-    .name {
-      color: #000;
-    }
-  }
-}
-.name {
-  color:#fff;
-}
+@import "~./styles.scss";
 </style>
-

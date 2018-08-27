@@ -11,18 +11,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.home {
-  position: relative;
-  height: 100%;
-  width: 100%;
-
-}
-img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  max-width: 200px;
-}
+@import "~./styles.scss";
 </style>

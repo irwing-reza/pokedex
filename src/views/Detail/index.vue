@@ -132,21 +132,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.details, .name {
-  color: #fff;
-}
-
-.empty {
-  text-align: center;
-}
-.emotion {
-  display: block;
-  text-align: center;
-  i:before {
-    font-size: 8rem;
-  }
-}
-.responsive-table {
-  overflow-x: auto;
-}
+@import "~./styles.scss"
 </style>

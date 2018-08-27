@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
+import Home from './views/Home/index.vue';
 
 Vue.use(Router);
 
@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '*',
       component: () =>
-        import(/* webpackChunkName: "not-found" */ './views/NotFound.vue'),
+        import(/* webpackChunkName: "not-found" */ './views/NotFound/index.vue'),
     },
     {
       path: '/',
@@ -24,14 +24,14 @@ export default new Router({
       name: 'search',
       props: true,
       component: () =>
-        import(/* webpackChunkName: "search" */ './views/Search.vue'),
+        import(/* webpackChunkName: "search" */ './views/Search/index.vue'),
     },
     {
       path: '/detail/:id',
       name: 'detail',
       props: true,
       component: () =>
-        import(/* webpackChunkName: "detail" */ './views/Detail.vue'),
+        import(/* webpackChunkName: "detail" */ './views/Detail/index.vue'),
     },
   ],
 });
